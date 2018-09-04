@@ -1,0 +1,12 @@
+# Site settings
+title: Bio 1M, Dushoff resources
+email: dushoff@mcmaster.ca
+baseurl: "" 
+url: "http://Bio1M.github.io" # the base hostname & protocol for your site
+port: 4215
+twitter_username: jd_mathbio
+facebook_group: 103090283767508
+
+# Build settings
+markdown: kramdown
+
