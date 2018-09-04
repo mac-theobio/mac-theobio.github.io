@@ -27,16 +27,12 @@ teaching fellowships.
 Please let me know what classes you've taken with me (and in what
 years), whether we've interacted, and what grades you have gotten.
 
-Unless you have a common given name, which is commonly associated with
-the gender you identify with, please also let me know if I should use
-male or female pronouns in your letter.
+Please also let me know which pronouns I should use in your letter.
 
 Known offenders
 ---------------
 
-If the place you want me to send the recommendation is listed [
-here](/jd/offenders.html), you can
-send this link as documentation for the recommenders' requirements.
+If the place you want me to send the recommendation is listed [ here](/jd/offenders.html), you can send this link as documentation for the recommenders' requirements.
 
 Recommendation
 ==============
