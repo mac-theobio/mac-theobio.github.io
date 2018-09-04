@@ -6,7 +6,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li><a href="{{ site.baseurl }}/">Dushoff resource main page</a></li> 
+          <li><a href="{{ site.baseurl }}/">Theobio main page</a></li> 
         </ul>
       </div>
 
@@ -26,11 +26,13 @@
           </li>
           {% endif %}
 
+          {% if site.facebook_group %}
 			  <li>
 				 <a href="https://www.facebook.com/groups/{{ site.facebook_group }}">
 					<i class="fa fa-facebook"></i> Facebook group
 				 </a>
 			  </li>
+          {% endif %}
 
           {% if site.ftwitter_username %}
           <li>

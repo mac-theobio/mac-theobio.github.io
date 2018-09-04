@@ -1,24 +1,10 @@
 # labPages
-### Hooks for the editor to set the default target
+# http://localhost:4103/
 
 current: target
 -include target.mk
 
 ##################################################################
-
-# Jekyll
-
-Sources += _config.yml $(wildcard Gemfile_*)
-
-Sources += _includes/* _layouts/* css/* _sass/*
-
-## cp -r _config.yml Gemfile_* _includes _layouts css _sass ~/gitroot/labPages ##
-
-Gemfile_orig.set Gemfile_sb.set: /proc/uptime
-	/bin/ln -fs $(basename $@)  Gemfile
-
-######################################################################
-
 
 ## Defs
 
@@ -35,16 +21,45 @@ Ignore += local.mk
 
 # -include $(ms)/perl.def
 
-Ignore += $(ms)
-## Sources += $(ms)
-Makefile: $(ms) $(ms)/Makefile
-$(ms):
-	git clone $(msrepo)/$(ms)
+Sources += $(ms)
 
 ## Only meant to work with makestuff.sub
 $(ms)/%.mk: $(ms)/Makefile ;
 $(ms)/Makefile:
 	git submodule update -i
+
+######################################################################
+
+Sources += index.md
+
+######################################################################
+
+# JD-specific
+
+wikiclean:
+	$(RMF) *.page.md *.wikitext
+offenders.page.md: offenders.wikitext
+Ignore += *.page.md *.wikitext
+%.page.md: page.md %.wikitext
+	cat $< > $@
+	pandoc -f mediawiki -t markdown $*.wikitext >> $@
+	
+Sources += jd/recommend.md jd/offenders.md
+
+######################################################################
+
+# Jekyll
+
+Sources += seird.jpg
+
+Sources += _config.yml $(wildcard Gemfile_*)
+
+Sources += _includes/* _layouts/* css/* _sass/*
+
+## cp -r _config.yml Gemfile_* _includes _layouts css _sass ~/gitroot/labPages ##
+
+Gemfile_orig.set Gemfile_sb.set: /proc/uptime
+	/bin/ln -fs $(basename $@)  Gemfile
 
 ######################################################################
 
