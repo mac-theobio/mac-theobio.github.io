@@ -1,5 +1,6 @@
 # labPages
 # http://localhost:4103/
+# make serve
 
 current: target
 -include target.mk
@@ -56,7 +57,7 @@ Sources += _includes/* _layouts/* css/* _sass/*
 
 ## cp -r _config.yml Gemfile_* _includes _layouts css _sass ~/gitroot/labPages ##
 
-Gemfile_orig.set Gemfile_sb.set: /proc/uptime
+Gemfile_orig.set Gemfile_sb.set: 
 	/bin/ln -fs $(basename $@)  Gemfile
 
 ######################################################################
