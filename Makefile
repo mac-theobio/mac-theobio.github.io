@@ -54,6 +54,8 @@ Sources += _includes/* _layouts/* css/* _sass/*
 
 ## cp -r _config.yml Gemfile_* _includes _layouts css _sass ~/gitroot/labPages ##
 
+Ignore += .sass-cache/ Gemfile Gemfile.lock _site/
+
 Gemfile_orig.set Gemfile_sb.set: 
 	/bin/ln -fs $(basename $@)  Gemfile
 
