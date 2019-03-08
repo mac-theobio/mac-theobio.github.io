@@ -11,8 +11,7 @@ current: target
 
 # stuff
 
-Sources += Makefile .ignore 
-Ignore += .gitignore
+Sources += Makefile 
 
 msrepo = https://github.com/dushoff
 ms = makestuff
@@ -29,23 +28,21 @@ $(ms):
 
 ######################################################################
 
-Sources += index.md
+Sources += $(wildcard *.md jd/*.md)
 
 ######################################################################
 
-# JD-specific
+## Importing
 
-wikiclean:
-	$(RMF) *.page.md *.wikitext
-offenders.page.md: offenders.wikitext
-Ignore += *.page.md *.wikitext
-%.page.md: page.md %.wikitext
+Ignore += *.page.mkd *.wikitext
+%.page.mkd: page.md %.wikitext
 	cat $< > $@
 	pandoc -f mediawiki -t markdown $*.wikitext >> $@
-	
-Sources += jd/recommend.md jd/offenders.md
+
+index.page.mkd: index.wikitext
 
 ######################################################################
+
 
 # Jekyll
 
