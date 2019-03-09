@@ -2,6 +2,8 @@
 # http://localhost:4103/
 # make serve
 
+## https://mac-theobio.github.io
+
 current: target
 -include target.mk
 
@@ -11,7 +13,7 @@ current: target
 
 # stuff
 
-Sources += Makefile 
+Sources += Makefile README.md
 
 msrepo = https://github.com/dushoff
 ms = makestuff
