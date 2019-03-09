@@ -43,10 +43,21 @@ index.page.mkd: index.wikitext
 
 ######################################################################
 
+# Pix
+
+Sources += favicon.ico seird.jpg
+
+Ignore += *.crop.jpg
+seird.crop.jpg: seird.jpg Makefile
+	convert -crop 350x350+280+30 $< $@
+favicon.ico: seird.crop.jpg
+	convert -resize x16 -gravity center -crop 16x16+0+0 -flatten -colors 256 $< 16.ico
+	convert -resize x32 -gravity center -crop 32x32+0+0 -flatten -colors 256 $< 32.ico
+	convert 16.ico 32.ico $@
+
+######################################################################
 
 # Jekyll
-
-Sources += seird.jpg
 
 Sources += _config.yml $(wildcard Gemfile_*)
 

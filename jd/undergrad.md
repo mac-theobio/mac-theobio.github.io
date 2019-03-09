@@ -11,7 +11,7 @@ Projects do not have to have a strong technical component to be approved.  Many 
 
 ## Research projects 
 
-Undergraduates in 2nd, 3rd or 4th year can request my collaboration on applications for research funding.  Typically, this means [NSERC USRA][http://www.nserc.ca/sf_e.asp?nav=sfnav&lbi=1a) funding, but other options are available.
+Undergraduates in 2nd, 3rd or 4th year can request my collaboration on applications for research funding.  Typically, this means [NSERC USRA](http://www.nserc.ca/sf_e.asp?nav=sfnav&lbi=1a) funding, but other options are available.
 
 You should be aware that the primary criterion for USRA funding at the departmental and higher levels (although not necessarily for me) is GPA.  Unless your GPA is quite strong, your chances are not good.  Rebecca Woodworth (LSB-218) can provide further information.
 
@@ -26,3 +26,9 @@ You should be aware that the primary criterion for USRA funding at the departmen
 * Send me an email message with a 300-word description of your research interests.  These can be very specific, or more broad.  They can refer to biological areas of interest, or to technical approaches (ie., mathematical modeling of populations, phylogenetic analysis), or both.  The description is the most important part of your application, and will also help me make additional suggestions for research directions.  It should be as clear and concise as possible.
 * You many optionally include a CV or a short personal statement with your email message.
 * Arrange for an official transcript to be sent to me, at the Department of Biology
+
+{% comment %} 
+### Work on timelines!!
+
+* The biology department's [undergraduate scholarships page](http://www.biology.mcmaster.ca/scholar_award.htm undergraduate)
+{% endcomment %} 
