@@ -48,6 +48,7 @@ index.page.mkd: index.wikitext
 # Pix
 
 Sources += favicon.ico seird.jpg
+Ignore += 16.ico 32.ico
 
 Ignore += *.crop.jpg
 seird.crop.jpg: seird.jpg Makefile
