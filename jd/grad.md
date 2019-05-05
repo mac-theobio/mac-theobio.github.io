@@ -19,4 +19,4 @@ It is usually best to apply informally, either before or in parallel with the re
 
 ## International graduate students
 
-* If you are a graduate candidate who is not a citizen or permanent resident of Canada, you will probably only be able to start in September, and you will need to contact me before 15 Nov of the previous year. I am sorry about the inconvenience, which is due to administrative limitations.
+If you are a graduate candidate who is not a citizen or permanent resident of Canada, you will probably only be able to start in September, and you will need to contact me before 15 Nov of the previous year. I am sorry about the inconvenience, which is due to administrative limitations.
