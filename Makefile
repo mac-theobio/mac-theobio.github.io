@@ -1,6 +1,6 @@
 # labPages
 # http://localhost:4103/
-# make serve
+# make serve ##
 
 ## https://mac-theobio.github.io
 
@@ -31,6 +31,8 @@ $(ms):
 ######################################################################
 
 Sources += $(wildcard *.md jd/*.md)
+
+subdirs += events
 
 ######################################################################
 
