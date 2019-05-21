@@ -12,6 +12,8 @@ approaches to study biology, with a particular focus on:
 
 We are trying to get better about tweeting to [#MacTheobio](https://twitter.com/hashtag/mactheobio?f=tweets&vertical=default)
 
+We also have an [events page](events/)
+
 Faculty
 -------
 
