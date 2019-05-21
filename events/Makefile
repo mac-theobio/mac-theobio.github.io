@@ -1,3 +1,8 @@
+# labPages/events
+# http://localhost:4103/
+# make serve ##
+
+## https://mac-theobio.github.io
 
 current: target
 -include target.mk
