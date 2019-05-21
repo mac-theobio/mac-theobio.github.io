@@ -19,6 +19,11 @@ $(ms)/Makefile:
 
 ######################################################################
 
+## index
+## Idiotically maintain this manually
+
+Sources += index.md
+
 ## Mike seminar
 
 Sources += images/*.* Li_seminar.html
