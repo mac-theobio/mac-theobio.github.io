@@ -26,11 +26,12 @@ You should be aware that the primary criterion for USRA funding at the departmen
 * Send me an email message with a 300-word description of your research interests.  These can be very specific, or more broad.  They can refer to biological areas of interest, or to technical approaches (ie., mathematical modeling of populations, phylogenetic analysis), or both.  The description is the most important part of your application, and will also help me make additional suggestions for research directions.  It should be as clear and concise as possible.
 * Send a copy of your transcript 
 * You many optionally include a CV or a short personal statement with your email message.
+* Applications received by 15 December will be given first consideration
 
 {% comment %} 
 ### Work on timelines!!
 
-Inteview in January?
+Inteview in January
 
 * The biology department's [undergraduate scholarships page](http://www.biology.mcmaster.ca/scholar_award.htm undergraduate)
 {% endcomment %} 
