@@ -9,6 +9,8 @@ Third-year students are welcome to apply to do senior projects or senior theses 
 
 Projects do not have to have a strong technical component to be approved.  Many successful projects simply lay out a clear question and describe what is known, what is unknown, and what must be learned.  For a project from our lab to qualify as a ''thesis'', it should make some sort of theoretical or computational contribution.  In some cases, the decision on whether a project qualifies as a thesis may need to be made after research has begun.
 
+__3-unit projects:__ it is my belief that the technical nature of our work makes 3-unit projects unlikely to be worthwhile. If you are positive you want to do a 3-unit project, and it has to be with me, it is on you to make a clear case about what you want to do and why you think you can be productive in limited time.
+
 ## Research projects 
 
 Undergraduates in 2nd, 3rd or 4th year can request my collaboration on applications for research funding.  Typically, this means [NSERC USRA](http://www.nserc.ca/sf_e.asp?nav=sfnav&lbi=1a) funding, but other options are available.
