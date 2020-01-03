@@ -17,6 +17,8 @@ It is usually best to apply informally, either before or in parallel with the re
 	* E.g., a term paper, undergrad or masters thesis, a first-author journal article …
 * CV (optional)
 
+Please attach PDFs, _not_ Word documents.
+
 ## International graduate students
 
 If you are a graduate candidate who is not a citizen or permanent resident of Canada, you will probably only be able to start in September, and you will need to contact me before 15 Nov of the previous year. I am sorry about the inconvenience, which is due to administrative limitations.

@@ -30,6 +30,8 @@ You should be aware that the primary criterion for USRA funding at the departmen
 * You many optionally include a CV or a short personal statement with your email message.
 * Applications received by 15 December will be given first consideration
 
+Please attach PDFs, _not_ Word documents.
+
 {% comment %} 
 ### Work on timelines!!
 
