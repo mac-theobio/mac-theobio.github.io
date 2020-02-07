@@ -10,12 +10,11 @@ approaches to study biology, with a particular focus on:
 * Spatial ecology
 * Evolution
 
-We have
+Updates
+-------
 
-* a twitter hashtag [#MacTheobio](https://twitter.com/hashtag/mactheobio?f=tweets&vertical=default)
-* and an [events page](events/)
-
-We would like to be better about updating them.
+* twitter hashtag [#MacTheobio](https://twitter.com/hashtag/mactheobio)
+* [events page](events/index.html)
 
 Faculty
 -------

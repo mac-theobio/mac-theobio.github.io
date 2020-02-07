@@ -72,7 +72,7 @@ Sources += _includes/* _layouts/* css/* _sass/*
 
 Ignore += .sass-cache/ Gemfile Gemfile.lock _site/
 
-## Gemfile_sb.set: 
+## Gemfile_sb.set:
 Gemfile_orig.set Gemfile_sb.set: 
 	/bin/ln -fs $(basename $@)  Gemfile
 
