@@ -19,22 +19,20 @@ msrepo = https://github.com/dushoff
 ms = makestuff
 Ignore += local.mk
 -include local.mk
--include $(ms)/os.mk
+-include makestuff/os.mk
 
-# -include $(ms)/perl.def
+# -include makestuff/perl.def
 
-Ignore += $(ms)
-Makefile: $(ms) $(ms)/Makefile
-$(ms):
-	git clone $(msrepo)/$(ms)
+Ignore += makestuff
+Makefile: makestuff $(ms)/Makefile
+makestuff:
+	git clone $(msrepo)/makestuff
 
 ######################################################################
 
 Sources += $(wildcard *.md jd/*.md)
 
 subdirs += events
-
-alldirs += $(subdirs)
 
 ######################################################################
 
@@ -82,8 +80,8 @@ Gemfile_orig.set Gemfile_sb.set:
 
 ### Makestuff
 
--include $(ms)/git.mk
--include $(ms)/visual.mk
+-include makestuff/git.mk
+-include makestuff/visual.mk
 
-# -include $(ms)/wrapR.mk
+# -include makestuff/wrapR.mk
 
