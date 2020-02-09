@@ -29,6 +29,7 @@ Sources += index.md
 ## Mike seminar
 
 Sources += images/*.* Li_seminar.html
+Sources += slides/*.pdf
 Sources += $(wildcard *.jpg)
 
 ######################################################################
