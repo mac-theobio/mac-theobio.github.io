@@ -34,6 +34,8 @@ Sources += $(wildcard *.md jd/*.md)
 
 subdirs += events
 
+alldirs += $(subdirs)
+
 ######################################################################
 
 ## Importing
