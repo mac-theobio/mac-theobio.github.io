@@ -9,6 +9,13 @@ title: MacTheobio events
 
 ## Past events
 * Jonathan Dushoff:
+__Strength, speed and quickness: an approach to
+evaluating models of disease spread__
+Fields Institute _Mathematics of COVID-19_ meeting;
+15 Feb 2020
+	* [Slides](slides/mathGens202002.draft.pdf)
+
+* Jonathan Dushoff:
 __The dynamics of infectious disease outbreaks.__
 McMaster University Biology seminar;
 7 Feb 2020
