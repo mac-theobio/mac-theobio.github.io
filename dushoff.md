@@ -5,7 +5,7 @@ title: Jonathan Dushoff
 
 ## Research
 
-I am a theoretical biologist with a broad interest in computational and statistical approaches to practical biological questions with a particular interest in dynamical questions (how systems are shaped at large scales by the way that change at small scales). My current research is mostly focused on infectious diseases of humans.
+I am a theoretical biologist with a broad interest in computational and statistical approaches to practical biological questions with a particular interest in dynamical questions (how systems are shaped at large scales by the way that they change at small scales). My current research is mostly focused on infectious diseases of humans.
 
 * [My google scholar page](https://scholar.google.ca/citations?user=yVwAcxMAAAAJ&hl)
 * [My publications on pubmed](https://www.ncbi.nlm.nih.gov/pubmed/?term=%22dushoff+j*%22%5Bau%5D)
