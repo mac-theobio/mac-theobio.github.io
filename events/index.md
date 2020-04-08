@@ -14,6 +14,7 @@ evaluating models of disease spread__
 Fields Institute _Mathematics of COVID-19_ meeting;
 15 Feb 2020
 	* [Slides](slides/mathGens202002.draft.pdf)
+	* [Video page (includes other talks from this event)](http://www.fields.utoronto.ca/video-archive//event/2992/2020)
 
 * Jonathan Dushoff:
 __The dynamics of infectious disease outbreaks.__
