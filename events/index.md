@@ -3,11 +3,20 @@ layout: page
 title: MacTheobio events
 ---
 
-{% comment %} 
 ## Upcoming
+{% comment %} 
+Comment out header when there is nothing under it.
 {% endcomment %} 
 
+David Earn will be doing something exciting involving the Fields Institute, probably this week.
+
 ## Past events
+* Jonathan Dushoff:
+__Dynamical modeling of infectious diseases__
+[McMaster Global Health Webinar Series 2020](https://globalhealth.mcmaster.ca/2020-webinar-series)
+8 May 2020
+	* [Slides](slides/dynamicalSpread202005.pdf)
+
 * Jonathan Dushoff:
 __Strength, speed and quickness: an approach to
 evaluating models of disease spread__
