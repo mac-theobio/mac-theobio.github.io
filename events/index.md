@@ -8,7 +8,7 @@ title: MacTheobio events
 Comment out header when there is nothing under it.
 {% endcomment %} 
 
-David Earn will be doing something exciting involving the Fields Institute, probably this week.
+* David Earn will be doing something exciting involving the Fields Institute, probably this week.
 
 ## Past events
 * Jonathan Dushoff:
