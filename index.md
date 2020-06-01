@@ -15,6 +15,7 @@ Updates
 
 * twitter hashtag [#MacTheobio](https://twitter.com/hashtag/mactheobio)
 * [events page](events/index.html)
+* [covid-19 work](covid-19/index.html)
 
 Faculty
 -------
