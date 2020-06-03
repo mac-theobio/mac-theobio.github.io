@@ -33,12 +33,11 @@ The package is [available freely on github](https://github.com/davidearn/epigrow
 
 #### _Published_
 
-[Weitz JS, Beckett SJ, Coenen AR _et al_, 7 May 2020, _Nature Medicine_ "Modeling shield immunity to reduce COVID-19 epidemic spread"](https://www.nature.com/articles/s41591-020-0895-3)
+Weitz JS, Beckett SJ, Coenen AR, Demory D, Dominguez-Mirazo M, Dushoff J, Leung C-Y, Li G, Măgălie A, Park SW, Rodriguez-Gonzalez R, Shivam S, Zhao CY, 7 May 2020, **_Nature Medicine_** "Modeling shield immunity to reduce COVID-19 epidemic spread" <https://www.nature.com/articles/s41591-020-0895-3>
 
-Barton CM, Alberti M, Ames D, Atkinson, J-A, Bales J, Burke E, Chen M, Diallo SY, Earn DJD, Fath B, Feng Z, Gibbons C, Hammond R, Heffernan J, Houser H, Hovmand PS, Kopainsky B, Mabry P L, Mair C, Meier P, Niles R, Nosek B, Osgood N, Pierce S, Polhill JG, Prosser L, Robinson E, Rosenzweig C, Sankaran S, Stange K, and Tucker G (2020). "Transparency of COVID-19 models." _Science_ **368**(6490), 482–483, DOI: http://science.sciencemag.org/cgi/doi/10.1126/science.abb8637
+Barton CM, Alberti M, Ames D, Atkinson, J-A, Bales J, Burke E, Chen M, Diallo SY, Earn DJD, Fath B, Feng Z, Gibbons C, Hammond R, Heffernan J, Houser H, Hovmand PS, Kopainsky B, Mabry P L, Mair C, Meier P, Niles R, Nosek B, Osgood N, Pierce S, Polhill JG, Prosser L, Robinson E, Rosenzweig C, Sankaran S, Stange K, and Tucker G (2020). "Transparency of COVID-19 models." **_Science_** **368**(6490), 482–483, DOI: http://science.sciencemag.org/cgi/doi/10.1126/science.abb8637
 
 #### _Preprints_
 
 Park SW, Bolker BM, Champredon D, Earn DJD, Li M, Weitz JS, Grenfell BT, Dushoff J (2020) "Reconciling early-outbreak estimates of the basic reproductive number and its uncertainty: framework and applications to the novel coronavirus (SARS-CoV-2) outbreak",
-https://www.medrxiv.org/content/10.1101/2020.01.30.20019877v4
-
+<https://www.medrxiv.org/content/10.1101/2020.01.30.20019877v4>
