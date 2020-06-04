@@ -30,7 +30,7 @@ makestuff:
 
 ######################################################################
 
-Sources += $(wildcard *.md jd/*.md)
+Sources += $(wildcard *.md jd/*.md covid/*.md)
 
 subdirs += events
 
