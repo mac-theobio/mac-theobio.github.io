@@ -10,3 +10,5 @@ __DRAFT__: Do not find this page until we post a link.
 The term is one year, renewable if funding is renewed successfully. You must be willing to commit to a period of at least six months, and be able to start working soon.
 
 You will be expected to start working remotely, but may be asked to move to Hamilton and work in person if your term is renewed. Preference will be given to people with permission to work in Canada.
+
+To apply, [send us](mailto:) a cover letter, a CV (including the name of three referees we can contact), and  research statement (of any form, not too long). Send these as _pdf_ attachments. 
