@@ -11,4 +11,4 @@ The term is one year, renewable if funding is renewed successfully. You must be 
 
 You will be expected to start working remotely, but may be asked to move to Hamilton and work in person if your term is renewed. Preference will be given to people with permission to work in Canada.
 
-To apply, [send us](mailto:) a cover letter, a CV (including the name of three referees we can contact), and  research statement (of any form, not too long). Send these as _pdf_ attachments. 
+To apply, [send us](mailto:bbolker+covidpostdoc@gmail.com) a cover letter, a CV (including the name of three referees we can contact), and a research statement (of any form, not too long). Send these as _pdf_ attachments. 
