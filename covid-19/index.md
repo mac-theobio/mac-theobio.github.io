@@ -47,6 +47,9 @@ Barton CM, Alberti M, Ames D, Atkinson, J-A, Bales J, Burke E, Chen M, Diallo SY
 
 ### _Preprints_
 
+Park SW, Sun K, Champredon D, Li M, Bolker BM, Earn David JD, Viboud C, Grenfell BT, Dushoff J
+https://github.com/parksw3/serial/blob/master/v1/serial.pdf
+
 Weitz JS, Park SW, Eksin C, Dushoff J.
 Posted to medRxiv 19 May 2020.
 [Moving Beyond a Peak Mentality: Plateaus, Shoulders, Oscillations and Other 'Anomalous' Behavior-Driven Shapes in COVID-19 Outbreaks](https://doi.org/10.1101/2020.05.03.20089524).
