@@ -15,6 +15,6 @@ __To apply:__ [send us](mailto:bbolker+covidpostdoc@gmail.com) a cover letter, a
 
 This position is included within the Canadian Union of Public Employees (CUPE) Local 3906 Unit 3, representing Post-Doctoral Fellows.  The minimum salary will be $45,000.
 
-McMaster University is located on the traditional territories of the Haudenosaunee and Mississauga Nations and, within the lands protected by the “Dish with One Spoon” wampum agreement.
+McMaster University is located on the traditional territories of the Haudenosaunee and Mississauga Nations, and within the lands protected by the “Dish with One Spoon” wampum agreement.
 
 In keeping with its [Statement on Building an Inclusive Community with a Shared Purpose,](https://secretariat.mcmaster.ca/app/uploads/Statement-on-Building-an-Inclusive-Community-with-a-Shared-Purpose.pdf) McMaster University strives to embody the values of respect, collaboration and diversity, and has a strong commitment to employment equity. The diversity of our workforce is at the core of our innovation and creativity and strengthens our research and teaching excellence. The University seeks qualified candidates who share our commitment to equity, diversity and inclusion. While all qualified candidates are invited to apply, we particularly welcome applications from women, persons with disabilities, First Nations, Métis and Inuit peoples, members of visible minorities, and LGBTQ+ persons.
