@@ -1,8 +1,6 @@
 
 # COVID-19 data analysis and forecasting at McMaster University
 
-_Last update:_ 29 May 2020
-
 Our research group is led by three faculty who have been engaged in epidemiological modelling research for more then 20 years:
 - [Ben Bolker](https://ms.mcmaster.ca/~bolker/)
 - [Jonathan Dushoff](https://mac-theobio.github.io/dushoff.html)
