@@ -2,7 +2,7 @@
 # http://localhost:4103/
 # make serve ##
 
-## https://mac-theobio.github.io/postdoc.html
+## https://mac-theobio.github.io/
 
 current: target
 -include target.mk
