@@ -3,12 +3,18 @@ layout: page
 title: MacTheobio events
 ---
 
-## Upcoming
 {% comment %} 
+## Upcoming
 Comment out header when there is nothing under it.
 {% endcomment %} 
 
 ## Past events
+* Michael Li: __Challenges in Modeling SARS-CoV-2: Bridging the Best of Both Worlds Between Models and Reality__
+DST-NRF Centre of Excellence in Epidemiological Modelling and Analysis (SACEMA) seminar
+26 Jun 2020
+	* [Slides](slides/Li_SACEMA.pdf)
+	* [Video](https://www.dropbox.com/s/2zhwr90763m47ik/2020-6-26.mp4?dl=0)
+
 * Jonathan Dushoff:
 __Dynamical modeling of infectious diseases__
 [McMaster Global Health Webinar Series 2020](https://globalhealth.mcmaster.ca/2020-webinar-series)
