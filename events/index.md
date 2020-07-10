@@ -6,6 +6,9 @@ title: MacTheobio events
 {% comment %} 
 ## Upcoming
 Comment out header when there is nothing under it.
+
+[Dushoff slides](https://github.com/dushoff/TalkArchive/blob/85e5e435d0e11eaeec8b044dc61e3953825bc64a/uncertainty.draft.pdf)
+
 {% endcomment %} 
 
 ## Past events
