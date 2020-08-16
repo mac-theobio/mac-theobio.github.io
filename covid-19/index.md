@@ -46,6 +46,10 @@ Weitz JS, Beckett SJ, Coenen AR, Demory D, Dominguez-Mirazo M, Dushoff J, Leung 
 Barton CM, Alberti M, Ames D, Atkinson, J-A, Bales J, Burke E, Chen M, Diallo SY, Earn DJD, Fath B, Feng Z, Gibbons C, Hammond R, Heffernan J, Houser H, Hovmand PS, Kopainsky B, Mabry P L, Mair C, Meier P, Niles R, Nosek B, Osgood N, Pierce S, Polhill JG, Prosser L, Robinson E, Rosenzweig C, Sankaran S, Stange K, and Tucker G (2020). **_Science_** <ins>368</ins>(6490), 482–483,
 [Transparency of COVID-19 models](http://science.sciencemag.org/cgi/doi/10.1126/science.abb8637).
 
+Park SW, Bolker BM, Champredon D, Earn DJD, Li M, Weitz JS, Grenfell BT, Dushoff J (2020).
+**_J. R. Soc. Interface_** <ins>17</ins>, 20200144, 
+[Reconciling early-outbreak estimates of the basic reproductive number and its uncertainty: framework and applications to the novel coronavirus (SARS-CoV-2) outbreak](https://doi.org/10.1098/rsif.2020.0144).
+
 ### _Preprints_
 
 Park SW, Sun K, Champredon D, Li M, Bolker BM, Earn DJD, Weitz JS, Grenfell BT, Dushoff J
@@ -59,10 +63,6 @@ Weitz JS, Park SW, Eksin C, Dushoff J
 Park SW, Sun K, Viboud C, Grenfell BT, Dushoff J
 (Posted to medRxiv 30 Mar 2020).
 [Potential roles of social distancing in mitigating the spread of coronavirus disease 2019 (COVID-19) in South Korea](https://doi.org/10.1101/2020.03.27.20045815).
-
-Park SW, Bolker BM, Champredon D, Earn DJD, Li M, Weitz JS, Grenfell BT, Dushoff J (2020).
-(Posted to medRxiv 28 Feb 2020).
-[Reconciling early-outbreak estimates of the basic reproductive number and its uncertainty: framework and applications to the novel coronavirus (SARS-CoV-2) outbreak](https://www.medrxiv.org/content/10.1101/2020.01.30.20019877v4).
 
 ### _Publicly available government reports_
 
