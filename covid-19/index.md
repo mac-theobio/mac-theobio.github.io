@@ -52,6 +52,10 @@ Park SW, Bolker BM, Champredon D, Earn DJD, Li M, Weitz JS, Grenfell BT, Dushoff
 
 ### _Preprints_
 
+Papst I, Li M, Champredon C, Bolker BM, Dushoff J, Earn DJD
+(Posted to medRxiv 3 Sep 2020).
+[Age-dependence of healthcare interventions for SARS-CoV-2 infection in Ontario, Canada](https://www.medrxiv.org/content/10.1101/2020.09.01.20186395v1)
+
 Park SW, Sun K, Champredon D, Li M, Bolker BM, Earn DJD, Weitz JS, Grenfell BT, Dushoff J
 (Posted to github 04 Jun 2020).
 [Cohort-based approach to understanding the roles of generation and serial intervals in shaping epidemiological dynamics](https://github.com/parksw3/serial/blob/master/v1/serial.pdf)
