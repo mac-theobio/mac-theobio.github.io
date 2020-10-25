@@ -1,5 +1,5 @@
 # labPages/events
-# http://localhost:4103/
+# http://localhost:4103/labPages/
 # make serve ##
 
 ## https://mac-theobio.github.io
