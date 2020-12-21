@@ -12,6 +12,12 @@ Comment out header when there is nothing under it.
 {% endcomment %} 
 
 ## Past events
+
+* David Earn, Jonathan Dushoff __From 1918 to 2020: Analyzing the past and forecasting the Future.__
+PIMS/UBC Mathematical Biology Seminar.
+Wed, Jul 8, 2020.
+	* [Talk page with video](https://mathtube.org/lecture/video/1918-2020-analyzing-past-and-forecasting-future)
+
 * Michael Li: __Challenges in Modeling SARS-CoV-2: Bridging the Best of Both Worlds Between Models and Reality__
 DST-NRF Centre of Excellence in Epidemiological Modelling and Analysis (SACEMA) seminar
 26 Jun 2020
