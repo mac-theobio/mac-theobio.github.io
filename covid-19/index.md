@@ -1,5 +1,10 @@
+---
+layout: page
+title: MacTheobio COVID research
+---
 
-# COVID-19 data analysis and forecasting at McMaster University
+
+# Data analysis and forecasting at McMaster University
 
 Our research group is led by three faculty who have been engaged in epidemiological modelling research for more then 20 years:
 - [Ben Bolker](https://ms.mcmaster.ca/~bolker/)

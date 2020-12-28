@@ -9,6 +9,7 @@ I am a theoretical biologist with a broad interest in computational and statisti
 
 * [My google scholar page](https://scholar.google.ca/citations?user=yVwAcxMAAAAJ&hl)
 * [My publications on pubmed](https://www.ncbi.nlm.nih.gov/pubmed/?term=%22dushoff+j*%22%5Bau%5D)
+* [Talks and interviews](jd/media.md)
 * [Pronouns](https://dushoff.github.io/notebook/pronouns.html)
 
 ## Graduate and post-graduate studies
