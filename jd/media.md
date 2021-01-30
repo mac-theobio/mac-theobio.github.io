@@ -38,4 +38,6 @@ https://www.youtube.com/channel/UCtzFZwz48_JG4Owf6gQ-rUA)
 
 * <https://www.ctvnews.ca/mobile/video?binId=1.810415>
 
+* [Mike Farwell, March 2020](https://www.570news.com/audio/the-mike-farwell-show/)
+
 ## Media mentions
