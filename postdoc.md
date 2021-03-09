@@ -3,17 +3,22 @@ layout: page
 title: Post-doctoral opportunity
 ---
 
-_Posted 5 June 2020_
+_Posted 9 March 2021_
 
-[We](index.html) are looking for someone who can start a COVID-related postdoc in the very near future. We are working on a variety of exciting projects with public-health agencies around the world (some shown [here](covid-19/)), and have funding from the Public Health Agency of Canada and other sources for a postdoc to work on practical questions related to understanding and managing the spread of COVID-19. The ideal candidate would have expertise in epidemiological modeling, statistical modeling of dynamical systems, and R programming. 
+[We](https://github.com/mac-theobio/mac-theobio.github.io/index.html) are looking for someone to pursue a COVID-modeling postdoc. We are working on a variety of exciting projects with public-health agencies around the world (some shown [here](https://github.com/mac-theobio/mac-theobio.github.io/covid-19/)), and have funding from various sources for a postdoc to work on practical questions related to understanding and managing the spread of COVID-19. The ideal candidate would have expertise in epidemiological modeling, statistical modeling of dynamical systems, and R programming; alternatively, candidates with a strong software engineering background will also be considered. The position will also include teaching at least one undergraduate course in mathematics or statistics.
 
-The term is one year, renewable if funding is renewed successfully. You must be willing to commit to a period of at least six months, and be able to start working soon.
+The fellowship is available immediately; later starting dates are feasible, but you must be available to teach in September 2021. The term is two years, subject to satisfactory performance in the first year.
 
 You will be expected to start working remotely, but may be asked to move to Hamilton and work in person if your term is renewed. Preference will be given to people with permission to work in Canada.
 
-__To apply:__ [send us](mailto:bbolker+covidpostdoc@gmail.com) a cover letter, a CV (including the name of three referees we can contact), and a research statement (of any form, not too long). Send these as _pdf_ attachments. 
+Please submit your application to MathJobs [here](...). Applicants should provide at least three letters of recommendation. At least one of these letters should report on the candidate's teaching abilities. Preferably these letters will be submitted through the MathJobs website; they may also be emailed directly to [us](mailto:bbolker+covidpostdoc@gmail.com). We appreciate all replies to this advertisement, but only applicants under consideration will be contacted. 
 
-This position is included within the Canadian Union of Public Employees (CUPE) Local 3906 Unit 3, representing Post-Doctoral Fellows.  The minimum salary will be $45,000.
+<!-- 
+COMMENT
+__To apply:__ [send us](mailto:bbolker+covidpostdoc@gmail.com) a cover letter, a CV (including the name of three referees we can contact), and a research statement (of any form, not too long). Send these as PDF attachments. 
+-->
+
+This position is included within the Canadian Union of Public Employees (CUPE) Local 3906 Unit 3, representing Post-Doctoral Fellows. The fellowship will provide an annual stipend salary of at least $50,000, plus a $2,000 grant for research expenses.
 
 McMaster University is located on the traditional territories of the Haudenosaunee and Mississauga Nations, and within the lands protected by the “Dish with One Spoon” wampum agreement.
 
