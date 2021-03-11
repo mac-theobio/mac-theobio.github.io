@@ -3,11 +3,11 @@ layout: page
 title: Post-doctoral opportunity
 ---
 
-_Posted 9 March 2021_
+_Posted 10 March 2021_
 
-[We](https://mac-theobio.github.io/index.html) are looking for someone to pursue a COVID-modeling postdoc. We are working on a variety of exciting projects with public-health agencies around the world (some shown [here](https://mac-theobio.github.io/covid-19/)), and have funding from various sources for a postdoc to work on practical questions related to understanding and managing the spread of COVID-19. The ideal candidate would have expertise in epidemiological modeling, statistical modeling of dynamical systems, and R programming; alternatively, candidates with a strong software engineering background will also be considered. The position will also include teaching at least one undergraduate course in mathematics or statistics.
+[We](https://mac-theobio.github.io/index.html) are looking for someone to pursue a COVID-modeling postdoc. We are working on a variety of exciting projects with public-health agencies around the world (some shown [here](https://mac-theobio.github.io/covid-19/)), and have funding from various sources for a postdoc to work on practical questions related to understanding and managing the spread of COVID-19. The ideal candidate would have expertise in epidemiological modeling, statistical modeling of dynamical systems, and R programming; alternatively, candidates with a strong software engineering background will also be considered. The position might also include a limited amount of undergraduate teaching in mathematics or statistics.
 
-The fellowship is available immediately; later starting dates are feasible, but you must be available to teach in September 2021. The term is two years, subject to satisfactory performance in the first year.
+The fellowship is available immediately, but later starting dates are feasible. The term is two years, subject to satisfactory performance in the first year.
 
 You will be expected to start working remotely, but may be asked to move to Hamilton and work in person if your term is renewed. Preference will be given to people with permission to work in Canada.
 
