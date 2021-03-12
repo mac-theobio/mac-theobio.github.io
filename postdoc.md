@@ -7,11 +7,11 @@ _Posted 10 March 2021_
 
 [We](https://mac-theobio.github.io/index.html) are looking for someone to pursue a COVID-modeling postdoc. We are working on a variety of exciting projects with public-health agencies around the world (some shown [here](https://mac-theobio.github.io/covid-19/)), and have funding from various sources for a postdoc to work on practical questions related to understanding and managing the spread of COVID-19. The ideal candidate would have expertise in epidemiological modeling, statistical modeling of dynamical systems, and R programming; alternatively, candidates with a strong software engineering background will also be considered. The position might also include a limited amount of undergraduate teaching in mathematics or statistics.
 
-The fellowship is available immediately, but later starting dates are feasible. The term is two years, subject to satisfactory performance in the first year.
+The fellowship is available immediately, but later starting dates are feasible. The term is two years, subject to satisfactory performance in the first year.  Review of applications will begin on 31 March 2021, but applications will be considered until the position is filled.
 
 You will be expected to start working remotely, but may be asked to move to Hamilton and work in person if your term is renewed. Preference will be given to people with permission to work in Canada.
 
-Please submit your application to MathJobs [here](...). Applicants should provide at least three letters of recommendation. At least one of these letters should report on the candidate's teaching abilities. Preferably these letters will be submitted through the MathJobs website; they may also be emailed directly to [us](mailto:bbolker+covidpostdoc@gmail.com). We appreciate all replies to this advertisement, but only applicants under consideration will be contacted. 
+Please submit your application to MathJobs [here](https://www.mathjobs.org/jobs/McMaster). Applicants should provide at least three letters of recommendation. At least one of these letters should report on the candidate's teaching abilities. Preferably these letters will be submitted through the MathJobs website; they may also be emailed directly to [us](mailto:bbolker+covidpostdoc@gmail.com). We appreciate all replies to this advertisement, but only applicants under consideration will be contacted. 
 
 <!-- 
 COMMENT
