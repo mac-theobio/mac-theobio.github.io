@@ -42,6 +42,8 @@ We administer [the COVID-19 awareness study](https://www.covid19-awareness.com/)
 
 ### _Published_
 
+Papst, I., Li, M., Champredon, D. _et al_ (12 Apr 2021). **_BMC Public Health_** <ins>21</ins>, 706, [Age-dependence of healthcare interventions for COVID-19 in Ontario, Canada.](https://doi.org/10.1186/s12889-021-10611-4)
+
 Park SW, Cornforth MC, Dushoff J, Weitz JS (June 2020). **_Epidemics_**
 [The time scale of asymptomatic transmission affects estimates of epidemic potential in the COVID-19 outbreak.](https://www.sciencedirect.com/science/article/pii/S1755436520300190).
 
@@ -56,10 +58,6 @@ Park SW, Bolker BM, Champredon D, Earn DJD, Li M, Weitz JS, Grenfell BT, Dushoff
 [Reconciling early-outbreak estimates of the basic reproductive number and its uncertainty: framework and applications to the novel coronavirus (SARS-CoV-2) outbreak](https://doi.org/10.1098/rsif.2020.0144).
 
 ### _Preprints_
-
-Papst I, Li M, Champredon C, Bolker BM, Dushoff J, Earn DJD
-(Posted to medRxiv 3 Sep 2020).
-[Age-dependence of healthcare interventions for SARS-CoV-2 infection in Ontario, Canada](https://www.medrxiv.org/content/10.1101/2020.09.01.20186395v1)
 
 Park SW, Sun K, Champredon D, Li M, Bolker BM, Earn DJD, Weitz JS, Grenfell BT, Dushoff J
 (Posted to github 04 Jun 2020).
