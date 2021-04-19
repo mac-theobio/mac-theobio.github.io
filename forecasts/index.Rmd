@@ -167,6 +167,8 @@ Accurate forecasts would not have been possible in this context had we simply re
 
 We must also acknowledge that our model, as any, is not perfect, nor is it static. We are constantly working on model improvements to ensure our projections remain reliable throughout this pandemic. Our current work involves reducing uncertainties in disease transmission mechanisms, by integrating more realistic social structure and more precisely capturing the effect of the ongoing vaccine roll-out on population immunity.
 
+* [Mac-theobio COVID page](https://mac-theobio.github.io/covid-19/)
+
 ---
 
 ### See our forecasts in action
