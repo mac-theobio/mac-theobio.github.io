@@ -23,6 +23,7 @@ Sources += content.mk
 ON_accuracy.html: ON_accuracy.Rmd data/ON_forecasts.Rdata data/ON_infection-reports.Rdata
 	Rscript -e "rmarkdown::render('$<')"
 
+Ignore += ON_accuracy_files ON_accuracy.md ON_accuracy.html
 ON_accuracy_files ON_accuracy.md: ON_accuracy.html ;
 
 Sources += $(wildcard funs/*.R)
