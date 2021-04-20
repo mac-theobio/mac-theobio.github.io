@@ -9,21 +9,6 @@ current: target
 
 ##################################################################
 
-## Defs
-
-Sources += Makefile
-
-ms = makestuff
-Ignore += $(ms)
-Makefile: $(ms)/Makefile
-	touch $@
-$(ms)/Makefile:
-	ls ../makestuff/Makefile && /bin/ln -s ../makestuff 
-
--include $(ms)/os.mk
-
-######################################################################
-
 Sources += index.md
 
 ## Mike seminar
@@ -36,6 +21,20 @@ Sources += $(wildcard *.jpg)
 
 ### Makestuff
 
--include $(ms)/git.mk
--include $(ms)/visual.mk
+## Defs
+
+Sources += Makefile
+ms = makestuff
+
+Ignore += makestuff
+
+Makefile: makestuff/Makefile
+	touch $@
+makestuff/Makefile:
+	ls ../makestuff/Makefile && /bin/ln -s ../makestuff 
+
+-include makestuff/os.mk
+
+-include makestuff/git.mk
+-include makestuff/visual.mk
 
