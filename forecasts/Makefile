@@ -3,7 +3,7 @@
 # http://localhost:4103/forecasts/outputs/
 # make serve ##
 
-## https://mac-theobio.github.io
+## https://mac-theobio.github.io/forecasts/outputs/
 
 current: target
 -include target.mk
