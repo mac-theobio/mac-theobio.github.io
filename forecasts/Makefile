@@ -1,6 +1,6 @@
 # labPages/forecasts
 # http://localhost:4103/forecasts/
-# http://localhost:4103/forecasts/outputs/
+# http://localhost:4103/forecasts/outputs/ON_accuracy.html
 # make serve ##
 
 ## https://mac-theobio.github.io/forecasts/outputs/
@@ -13,20 +13,22 @@ current: target
 ## Starting with Irena's forecast report
 
 Ignore += ON_forecast-accuracy.zip ## Makes Irena's original folder
-Sources += 2021-04-19.Rmd
+Sources += ON_accuracy.Rmd
 
-## Making index.md from index.Rmd; html is a side product and is different from the html that will be rendered by jekyll
+Sources += content.mk
+
+## Make foo.md from foo.Rmd; html is a side product and is different from the html that will be rendered by jekyll
 ## Things needed to render must also be copied to outputs and pushed
-## index.md: index.Rmd
-2021-04-19.html 2021-04-19.md: 2021-04-19.Rmd data/ON_forecasts.Rdata data/ON_infection-reports.Rdata
+## ON_accuracy.html: ON_accuracy.Rmd
+ON_accuracy.html: ON_accuracy.Rmd data/ON_forecasts.Rdata data/ON_infection-reports.Rdata
 	Rscript -e "rmarkdown::render('$<')"
 
-2021-04-19_files: 2021-04-19.md ;
-
-push_2021-04-19: 2021-04-19.html.op
+ON_accuracy_files ON_accuracy.md: ON_accuracy.html ;
 
 Sources += $(wildcard funs/*.R)
 Ignore += figs data ## Need to figure out how these are made or found
+
+push_page: ON_accuracy.html.op ON_accuracy_files.opdir 
 
 ##################################################################
 

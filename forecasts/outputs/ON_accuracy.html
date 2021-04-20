@@ -9,8 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Michael Li, Irena Papst (@irenapapst), Ben Bolker (@bolkerb), Jonathan Dushoff (@jd_mathbio), David Earn (@DavidJDEarn)" />
+<meta name="author" content="Irena Papst (@irenapapst), Michael Li, Ben Bolker (@bolkerb), Jonathan Dushoff (@jd_mathbio), David Earn (@DavidJDEarn)" />
 
+<meta name="date" content="2021-04-19" />
 
 <title>Early prediction of Ontario’s third COVID-19 wave</title>
 
@@ -411,9 +412,9 @@ summary {
 
 
 <h1 class="title toc-ignore">Early prediction of Ontario’s third COVID-19 wave</h1>
-<h3 class="subtitle"><a href="https://github.com/bbolker/McMasterPandemic"><code>McMasterPandemic</code></a> Modelling Group</h3>
-<h4 class="author">Michael Li, Irena Papst (<a href="https://twitter.com/irenapapst">@irenapapst</a>), Ben Bolker (<a href="https://twitter.com/bolkerb">@bolkerb</a>), Jonathan Dushoff (<a href="https://twitter.com/jd_mathbio">@jd_mathbio</a>), David Earn (<a href="https://twitter.com/davidjdearn">@DavidJDEarn</a>)</h4>
-<h4 class="date">Last update: 19 Apr 2021</h4>
+<h3 class="subtitle"><a href="https://mac-theobio.github.io/covid-19/">#MacTheobio COVID Modelling Group</a></h3>
+<h4 class="author">Irena Papst (<a href="https://twitter.com/irenapapst">@irenapapst</a>), Michael Li, Ben Bolker (<a href="https://twitter.com/bolkerb">@bolkerb</a>), Jonathan Dushoff (<a href="https://twitter.com/jd_mathbio">@jd_mathbio</a>), David Earn (<a href="https://twitter.com/davidjdearn">@DavidJDEarn</a>)</h4>
+<h4 class="date">19 April 2021</h4>
 
 </div>
 
@@ -462,7 +463,8 @@ Figure 1: The forecast made on 21 Feb 2021 (curve framed by a 95% confidence ban
 Figure 2: The forecast made on 21 Feb 2021, with infection reports observed after the forecast date denoted with hollow black points. The actual lifting of the stay-at-home order on 8 Mar 2021 is indicated with the solid black vertical line.
 </p>
 </div>
-<p>Public health measures did indeed relax further in early March: on March 8th, the province <a href="https://news.ontario.ca/en/release/60580/toronto-peel-and-north-bay-parry-sound-public-health-regions-returning-to-strengthened-covid-19-resp">lifted the January stay-at-home order</a> in the last few regions where it was still in effect (Toronto, Peel, and North Bay Parry Sound). Infection reports began growing exponentially soon after our forecast was made, propelling Ontario into its third, and largest, wave of infection as of early April 2021.</p>
+<p>Public health measures did indeed relax further in early March: on March 8th, the province <a href="https://news.ontario.ca/en/release/60580/toronto-peel-and-north-bay-parry-sound-public-health-regions-returning-to-strengthened-covid-19-resp">lifted the January stay-at-home order</a> in the last few regions where it was still in effect (Toronto, Peel, and North Bay Parry Sound) and loosened restrictions in seven other regions.</p>
+<p>Infection reports began growing exponentially soon after our forecast was made, propelling Ontario into its third, and largest, wave of infection as of early April 2021.</p>
 </div>
 <div id="an-updated-trajectory" class="section level1">
 <h1>An updated trajectory</h1>
@@ -495,7 +497,8 @@ Figure 4: The forecast made on 20 Mar 2021, with infection reports observed afte
 Figure 5: All daily COVID-19 infection reports for Ontario (purple curve), with VoC infections subset (orange curve). Base plot from the <a href="https://covid19-sciencetable.ca/ontario-dashboard/">Ontario Science Advisory Table COVID-19 dashboard</a>.
 </p>
 </div>
-<p>Our group identified the threat posed by VoCs to the province early on, and explicitly incorporated the eventual takeover of a more transmissible variant in our model, as predicted by evolutionary theory. The precision with which we were able to model the growth of B.1.1.7 in Ontario is due to <a href="https://www.medrxiv.org/content/10.1101/2020.12.24.20248822v1?versioned=true">estimates of transmission advantage from the United Kingdom</a> as well as <a href="https://www.publichealthontario.ca/-/media/documents/ncov/voc/2021/02/sars-cov-2-variants-point-prevalence.pdf?la=en">early VoC surveillence data</a> from <a href="https://covid-19.ontario.ca/covid-19-epidemiologic-summaries-public-health-ontario">Public Health Ontario</a>.</p>
+<p>Our group identified the threat posed by VoCs to the province early on, and explicitly incorporated the eventual takeover of a more transmissible variant in our model, as predicted by evolutionary theory.
+Our ability to accurately model the growth of B.1.1.7 in Ontario is based on <a href="https://www.medrxiv.org/content/10.1101/2020.12.24.20248822v1?versioned=true">estimates of transmission advantage from the United Kingdom</a>, theory from the field of <a href="https://doi.org/10.1111/j.1461-0248.2007.01091.x">evolutionary epidemiology</a>, as well as <a href="https://www.publichealthontario.ca/-/media/documents/ncov/voc/2021/02/sars-cov-2-variants-point-prevalence.pdf?la=en">early VoC surveillance data</a> from <a href="https://covid-19.ontario.ca/covid-19-epidemiologic-summaries-public-health-ontario">Public Health Ontario</a>.</p>
 </div>
 <div id="what-if-we-hadnt-explicitly-incorporated-b.1.1.7-takeover-in-our-forecasts" class="section level2">
 <h2>What if we hadn’t explicitly incorporated B.1.1.7 takeover in our forecasts?</h2>
@@ -513,9 +516,6 @@ Figure 6: <em>Forecasts made on 21 Feb 2021 and 20 Mar 2021 (curves framed by a 
 <h1>Final thoughts</h1>
 <p>Accurate forecasts would not have been possible in this context had we simply relied on detecting increases to the transmission rate through infection report data. Modellers should continue to <a href="https://www.nytimes.com/interactive/2021/health/coronavirus-variant-tracker.html">monitor the global VoC situation closely</a> and make careful, proactive adjustments to their projection scenarios when variant of concern threats emerge in their region, be it due to a novel mutation or VoC importation from another region. <a href="https://www.publichealthontario.ca/en/about/blog/2021/monitoring-covid-19-voc">Early VoC surveillance</a> is crucial for this purpose.</p>
 <p>We must also acknowledge that our model, as any, is not perfect, nor is it static. We are constantly working on model improvements to ensure our projections remain reliable throughout this pandemic. Our current work involves reducing uncertainties in disease transmission mechanisms, by integrating more realistic social structure and more precisely capturing the effect of the ongoing vaccine roll-out on population immunity.</p>
-<ul>
-<li><a href="https://mac-theobio.github.io/covid-19/">Mac-theobio COVID page</a></li>
-</ul>
 <hr />
 <div id="see-our-forecasts-in-action" class="section level3">
 <h3>See our forecasts in action</h3>
