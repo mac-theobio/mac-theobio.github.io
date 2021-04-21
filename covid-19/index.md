@@ -42,7 +42,7 @@ We administer [the COVID-19 awareness study](https://www.covid19-awareness.com/)
 
 ### _Published_
 
-Papst, I., Li, M., Champredon, D. _et al_ (12 Apr 2021). **_BMC Public Health_** <ins>21</ins>, 706, [Age-dependence of healthcare interventions for COVID-19 in Ontario, Canada.](https://doi.org/10.1186/s12889-021-10611-4)
+Papst I, Li M, Champredon D, Bolker BM, Dushoff J, Earn DJD (12 Apr 2021). **_BMC Public Health_** <ins>21</ins>, 706, [Age-dependence of healthcare interventions for COVID-19 in Ontario, Canada.](https://doi.org/10.1186/s12889-021-10611-4)
 
 Park SW, Cornforth MC, Dushoff J, Weitz JS (June 2020). **_Epidemics_**
 [The time scale of asymptomatic transmission affects estimates of epidemic potential in the COVID-19 outbreak.](https://www.sciencedirect.com/science/article/pii/S1755436520300190).
