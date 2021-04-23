@@ -12,6 +12,7 @@ current: target
 
 ## Starting with Irena's forecast report
 
+Ignore += ON_forecast-accuracy_blog-post/
 Ignore += ON_forecast-accuracy.zip ## Makes Irena's original folder
 Sources += ON_accuracy.Rmd
 
