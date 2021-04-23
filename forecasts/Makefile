@@ -29,7 +29,8 @@ ON_accuracy_files ON_accuracy.md: ON_accuracy.html ;
 Sources += $(wildcard funs/*.R)
 Ignore += figs data ## Need to figure out how these are made or found
 
-push_page: ON_accuracy.html.op ON_accuracy_files.opdir 
+push_page: ON_accuracy.html.op
+## ON_accuracy_files.opdir 
 
 ##################################################################
 

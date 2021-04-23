@@ -4,7 +4,7 @@ title: "Early prediction of Ontario's third COVID-19 wave"
 subtitle: "[#MacTheobio COVID Modelling Group](https://mac-theobio.github.io/covid-19/)"
 
 author: "Irena Papst ([\\@irenapapst](https://twitter.com/irenapapst)), Michael Li, Ben Bolker ([\\@bolkerb](https://twitter.com/bolkerb)), Jonathan Dushoff ([\\@jd_mathbio](https://twitter.com/jd_mathbio)), David Earn ([\\@DavidJDEarn](https://twitter.com/davidjdearn))"
-date: "19 April 2021" (disclaimer modified 22 April)
+date: "19 April 2021 (disclaimer modified 22 April)"
 output: 
   bookdown::html_document2:
     keep_md: true
