@@ -57,7 +57,7 @@ Here, we discuss our group’s most recent Ontario COVID-19 forecasts, and elabo
 
 # Context
 
-Every two weeks, our group provides COVID-19 infection report forecasts for the province of Ontario to the [Ontario Modelling Consensus Table](https://covid19-sciencetable.ca/our-partners/), a partner of the [Ontario Science Advisory Table](https://covid19-sciencetable.ca).^[This report has been written independently of the Ontario Modelling Consensus Table and the Ontario Science Advisory Table. The views expressed in this report are solely the authors’ and do not reflect the opinions of either group.]
+Every two weeks, our group provides COVID-19 infection report forecasts for the province of Ontario to the [Ontario Modelling Consensus Table](https://covid19-sciencetable.ca/our-partners/), a partner of the [Ontario Science Advisory Table](https://covid19-sciencetable.ca)^[This report has been written independently of the Ontario Modelling Consensus Table and the Ontario Science Advisory Table. The views expressed in this report are solely the authors’ and do not reflect the opinions of either group.], which presents this information to the Health Coordination Table of the Ontario Ministry of Health.
 
 Our forecasts are based on a [compartmental epidemic model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) implemented in our publicly available [`McMasterPandemic`](https://github.com/bbolker/McMasterPandemic) R package, and involve statistical fits to [the province's latest infection report data](https://covid-19.ontario.ca/data).
 
