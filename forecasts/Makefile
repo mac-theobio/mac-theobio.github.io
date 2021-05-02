@@ -1,7 +1,7 @@
 # labPages/forecasts
 # http://localhost:4103/forecasts/ON_forecast_0502
 # http://localhost:4103/forecasts/outputs/ON_accuracy.html
-# make serve ##
+# DO NOT SERVE FROM HERE (use parent)
 
 ## https://mac-theobio.github.io/forecasts/ON_forecast_0502
 ## https://mac-theobio.github.io/forecasts/outputs/ON_forecast_0502
@@ -13,7 +13,7 @@ current: target
 
 Rrender = Rscript -e "rmarkdown::render('$<')"
 
-## The ffirst forecast blog
+## The first forecast blog
 
 Ignore += ON_forecast-accuracy_blog-post/
 Ignore += ON_forecast-accuracy.zip ## Makes Irena's original folder
@@ -52,7 +52,7 @@ omt_blog:
 
 ######################################################################
 
-grumble: ON_forecast_0502.crib ON_forecast_0502.html.go
+Sources += header.html footer.html
 
 ## Subsequent forecast blogs
 
