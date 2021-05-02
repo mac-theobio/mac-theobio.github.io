@@ -72,8 +72,7 @@ ON_forecast_0502.gfm.md: ON_forecast_0502.md
 ON_forecast_0502.md:
 
 ## It's literally just impossible how badly all of this works!
-## Don't let .md compete with .html in a jekyll dir (even locally)
-ON_forecast_0502.render.html: ON_forecast_0502.md
+ON_forecast_0502.html: ON_forecast_0502.md
 	$(Rrender)
 
 Sources += $(wildcard ON_forecast_*.md) style.css

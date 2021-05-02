@@ -21,6 +21,11 @@ div {
   padding-right: 0px;
 }
 
+.line-item{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
   .flex-item-right, .flex-item-left {
