@@ -4,6 +4,7 @@
 # make serve ##
 
 ## https://mac-theobio.github.io/forecasts/ON_forecast_0502
+## https://mac-theobio.github.io/forecasts/outputs/ON_forecast_0502
 
 current: target
 -include target.mk

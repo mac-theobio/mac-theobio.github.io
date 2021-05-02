@@ -1,7 +1,6 @@
 ---
 title: "Ontario COVID-19 forecasts"
 subtitle: "[#MacTheobio COVID Modelling Group](https://mac-theobio.github.io/covid-19/)"
-footer: ../_includes/footer.html
 
 author: "Irena Papst ([\\@irenapapst](https://twitter.com/irenapapst)), Michael Li, Ben Bolker ([\\@bolkerb](https://twitter.com/bolkerb)), Jonathan Dushoff ([\\@jd_mathbio](https://twitter.com/jd_mathbio)), David Earn ([\\@DavidJDEarn](https://twitter.com/davidjdearn))"
 date: "**Forecast dates: 19 April 2021 and 27 April 2021**"
@@ -15,12 +14,6 @@ output:
       after_body: footer.html
 
 ---
-
-
-
-
-
-
 
 <!-- set up custom css classes for the different scenarios to make marking up the text less cumbersome... sc1 = scenario 1 -->
 
@@ -141,8 +134,6 @@ In the forecast period, the vaccination scenarios we explore are that:
 ---
 
 Related post: [Early prediction of Ontario’s third COVID-19 wave](https://mac-theobio.github.io/forecasts/outputs/ON_accuracy.html)
-
-[Back to the MacTheobio COVID Modelling Group page](https://mac-theobio.github.io/covid-19/)
 
 </div>
 
