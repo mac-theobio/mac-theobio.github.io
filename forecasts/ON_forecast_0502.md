@@ -1,7 +1,7 @@
 ---
-layout: page
 title: "Ontario COVID-19 forecasts"
 subtitle: "[#MacTheobio COVID Modelling Group](https://mac-theobio.github.io/covid-19/)"
+footer: ../_includes/footer.html
 
 author: "Irena Papst ([\\@irenapapst](https://twitter.com/irenapapst)), Michael Li, Ben Bolker ([\\@bolkerb](https://twitter.com/bolkerb)), Jonathan Dushoff ([\\@jd_mathbio](https://twitter.com/jd_mathbio)), David Earn ([\\@DavidJDEarn](https://twitter.com/davidjdearn))"
 date: "**Forecast dates: 19 April 2021 and 27 April 2021**"
@@ -10,6 +10,10 @@ output:
     keep_md: true
     number_sections: false
     css: style.css
+    includes:
+      before_body: header.html
+      after_body: footer.html
+
 ---
 
 

@@ -9,6 +9,7 @@ current: target
 -include target.mk
 
 ##################################################################
+
 Rrender = Rscript -e "rmarkdown::render('$<')"
 
 ## The ffirst forecast blog
@@ -69,7 +70,8 @@ ON_forecast_0502.gfm.md: ON_forecast_0502.md
 
 ON_forecast_0502.md:
 
-ON_forecast_0502.html: ON_forecast_0502.md
+## It's literally just impossible how badly all of this works!
+ON_forecast_0502.html: ON_forecast_0502.md Makefile
 	$(Rrender)
 
 Sources += $(wildcard ON_forecast_*.md) style.css
