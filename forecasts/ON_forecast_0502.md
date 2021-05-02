@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Ontario COVID-19 forecasts"
 subtitle: "[#MacTheobio COVID Modelling Group](https://mac-theobio.github.io/covid-19/)"
 
@@ -46,7 +47,7 @@ output:
 }
 </style>
 
-::: {}
+<div>
 
 _Post last updated: 02 May 2021_
 
@@ -56,11 +57,11 @@ Every two weeks, [our group](https://mac-theobio.github.io/covid-19/) provides C
 
 Our forecasts are based on a [compartmental epidemic model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) implemented in our publicly available [`McMasterPandemic`](https://github.com/bbolker/McMasterPandemic) R package, and involve statistical fits to [Ontario's latest infection report data](https://covid-19.ontario.ca/data).
 
-:::
+</div>
 
-:::: {class="flex-container"}
+<div class="flex-container">
 
-::: {class="flex-item-left"}
+<div class="flex-item-left">
 
 # Forecast overview
 
@@ -76,9 +77,9 @@ We have updated, and will continue to update, this post in order to show the [la
 
 The most recent infection reports indicate which of the 19 April scenarios turned out to be closest to reality (and therefore suggest the degree to which public health measures, changes in behaviour, or vaccine uptake, have been effective).  When multiple changes have occurred simultaneously (for example, closing schools and restricting travel), it is very difficult, if not impossible, to determine which changes had the greatest impact on disease transmission.
 
-:::
+</div>
 
-::: {class="flex-item-right"}
+<div class="flex-item-right">
 
 # Forecast results
 
@@ -88,11 +89,11 @@ The following figures gives the infection report forecasts (curves), with 95% co
 
 The transmission reduction fit to data in the 27 April forecast is about 30%, so the epidemic trajectory that we predict going forward is very similar to the "moderate" scenario considered on 19 April.
 
-:::
+</div>
 
-::::
+</div>
 
-::: {}
+<div>
 
 # Forecast details 
 
@@ -139,7 +140,7 @@ Related post: [Early prediction of Ontario’s third COVID-19 wave](https://mac-
 
 [Back to the MacTheobio COVID Modelling Group page](https://mac-theobio.github.io/covid-19/)
 
-:::
+</div>
 
 <!-- EXPORT CSV -->
 
