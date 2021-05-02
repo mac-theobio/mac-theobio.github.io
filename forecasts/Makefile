@@ -66,7 +66,7 @@ ON_forecast_0502.md:
 ON_forecast_0502.html: ON_forecast_0502.md
 	$(Rrender)
 
-Sources += $(wildcard ON_forecast_*.md)
+Sources += $(wildcard ON_forecast_*.md) style.css
 Sources += $(wildcard ON_forecast_*_files/*)
 
 ######################################################################
