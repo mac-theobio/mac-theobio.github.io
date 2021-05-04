@@ -11,6 +11,11 @@ Our research group is led by three faculty who have been engaged in epidemiologi
 - [Jonathan Dushoff](https://mac-theobio.github.io/dushoff.html)
 - [David Earn](http://davidearn.mcmaster.ca)
 
+## Blog posts
+
+- 29 Apr 2021. [Ontario COVID-19 forecasts](https://mac-theobio.github.io/forecasts/outputs/ON_forecast_0502)
+- 19 Apr 2021. [Early prediction of Ontario’s third COVID-19 wave](https://mac-theobio.github.io/forecasts/outputs/ON_accuracy.html)
+
 ## Canadian public data repository
 
 Postdoctoral fellow [Michael Li](https://wzmli.github.io/) is working hard to maintain the most complete, clean, Canadian COVID-19 data set derived from public sources: <https://wzmli.github.io/COVID19-Canada/>
