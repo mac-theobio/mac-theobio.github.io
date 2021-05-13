@@ -58,7 +58,7 @@ Sources += header.html footer.html
 
 Sources += fd.pl
 ## This rule will overwrite local changes!
-## ON_forecast_0502.crib:
+## ON_forecast_0509.crib:
 %.crib: omt_blog
 	perl -wf fd.pl $* `ls -t $(omt_blog)/*.md | head -1` > $*.md
 	$(RMR) $*_files
@@ -66,13 +66,13 @@ Sources += fd.pl
 	cp $(omt_blog)/style.css .
 
 ## Drops YAML and doesn't work even if yaml is put back?
-ON_forecast_0502.gfm.md: ON_forecast_0502.md
+ON_forecast_0509.gfm.md: ON_forecast_0502.md
 	pandoc -t gfm -o $@ $<
 
 ON_forecast_0502.md:
 
 ## It's literally just impossible how badly all of this works!
-ON_forecast_0502.html: ON_forecast_0502.md
+ON_forecast_0509.html: ON_forecast_0509.md
 	$(Rrender)
 
 Sources += $(wildcard ON_forecast_*.md) style.css
