@@ -3,8 +3,7 @@
 # http://localhost:4103/forecasts/outputs/ON_accuracy.html
 # DO NOT SERVE FROM HERE (use parent)
 
-## https://mac-theobio.github.io/forecasts/ON_forecast_0502
-## https://mac-theobio.github.io/forecasts/outputs/ON_forecast_0502
+## https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-05-09
 
 current: target
 -include target.mk
@@ -47,10 +46,14 @@ push_page: ON_accuracy.html.op
 Ignore += local.mk
 -include local.mk
 
+## This is weirdly indirect; why not just make a symbolic link with this name?
 omt_blog: 
 	@(ls $(omt_blog)/Makefile > /dev/null) || (echo ERROR: Please set omt_blog directory in local.mk && false)
 
 ######################################################################
+
+## 2021 May 12 (Wed) Just manually renaming the output html for now
+## git mv outputs/ON_forecast_0509.html outputs/McMasterOntarioForecastsBlog2021-05-09.html ##
 
 Sources += header.html footer.html
 
@@ -58,20 +61,16 @@ Sources += header.html footer.html
 
 Sources += fd.pl
 ## This rule will overwrite local changes!
-## ON_forecast_0509.crib:
+## It's also weird; we can just keep the name from omt_blog
+## ON_forecast_2022_0509.crib:
 %.crib: omt_blog
 	perl -wf fd.pl $* `ls -t $(omt_blog)/*.md | head -1` > $*.md
 	$(RMR) $*_files
 	cp -r `ls -dt $(omt_blog)/*_files | head -1` $*_files
 	cp $(omt_blog)/style.css .
 
-## Drops YAML and doesn't work even if yaml is put back?
-ON_forecast_0509.gfm.md: ON_forecast_0502.md
-	pandoc -t gfm -o $@ $<
-
-ON_forecast_0502.md:
-
 ## It's literally just impossible how badly all of this works!
+## JD is still adding header/footer to yaml manually. Fix this before you add another one. 2021 May 12 (Wed)
 ON_forecast_0509.html: ON_forecast_0509.md
 	$(Rrender)
 
