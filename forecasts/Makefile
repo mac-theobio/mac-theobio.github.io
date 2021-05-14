@@ -44,7 +44,7 @@ push_page: ON_accuracy.html.op
 Ignore += local.mk
 -include local.mk
 
-Ignore += McMasterOntarioForecastsBlog2*.*
+Ignore += McMasterOntarioForecastsBlog*.* Ignore += McMasterOntarioForecastsBlog*/
 Ignore += omt_blog
 
 omt_blog:
