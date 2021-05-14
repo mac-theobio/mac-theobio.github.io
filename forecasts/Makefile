@@ -44,6 +44,9 @@ push_page: ON_accuracy.html.op
 Ignore += local.mk
 -include local.mk
 
+Ignore += McMasterOntarioForecastsBlog2*
+Ignore += omt_blog
+
 omt_blog:
 	@(ls $(omt_blog)/Makefile > /dev/null && ln -s $(omt_blog) $@) \
 	|| (echo ERROR: Please set omt_blog directory in local.mk && false)
@@ -66,7 +69,7 @@ get_blog: omt_blog
 	$(CP) omt_blog/style.css .
 
 format_blog:
-	perl -i -wf fd.pl $(currblog) > $@
+	perl -i -wf fd.pl $(currblog)
 
 view_blog:
 	$(MAKE) $(currblog:.md=.html.go)
