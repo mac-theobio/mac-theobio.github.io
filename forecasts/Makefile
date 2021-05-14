@@ -41,37 +41,44 @@ push_page: ON_accuracy.html.op
 
 ## File location
 
-## omt_blog = ~/screens/research/MacOMT/forecast_blog/
-
 Ignore += local.mk
 -include local.mk
 
-## This is weirdly indirect; why not just make a symbolic link with this name?
-omt_blog: 
-	@(ls $(omt_blog)/Makefile > /dev/null) || (echo ERROR: Please set omt_blog directory in local.mk && false)
+omt_blog:
+	@(ls $(omt_blog)/Makefile > /dev/null && ln -s $(omt_blog) $@) \
+	|| (echo ERROR: Please set omt_blog directory in local.mk && false)
 
 ######################################################################
 
-## 2021 May 12 (Wed) Just manually renaming the output html for now
-## git mv outputs/ON_forecast_0509.html outputs/McMasterOntarioForecastsBlog2021-05-09.html ##
+## Making this a pipeline
 
 Sources += header.html footer.html
-
-## Subsequent forecast blogs
-
 Sources += fd.pl
-## This rule will overwrite local changes!
-## It's also weird; we can just keep the name from omt_blog
-## ON_forecast_2022_0509.crib:
-%.crib: omt_blog
-	perl -wf fd.pl $* `ls -t $(omt_blog)/*.md | head -1` > $*.md
-	$(RMR) $*_files
-	cp -r `ls -dt $(omt_blog)/*_files | head -1` $*_files
-	cp $(omt_blog)/style.css .
+
+currblog = $(notdir $(shell ls -t omt_blog/*.md | head -1))
+currfiles = $(currblog:.md=_files)
+
+## Get blog from private site
+get_blog: omt_blog
+	$(CP) omt_blog/$(currblog) .
+	-$(RMR) $(currfiles)
+	$(CPR) omt_blog/$(currfiles) .
+	$(CP) omt_blog/style.css .
+
+format_blog:
+	perl -i -wf fd.pl $(currblog) > $@
+
+view_blog:
+	$(MAKE) $(currblog:.md=.html.go)
+
+make_blog: get_blog format_blog view_blog
+
+post_blog:
+	$(MAKE) $(currblog:.md=.html.op)
 
 ## It's literally just impossible how badly all of this works!
 ## JD is still adding header/footer to yaml manually. Fix this before you add another one. 2021 May 12 (Wed)
-ON_forecast_0509.html: ON_forecast_0509.md
+%.html: %.md
 	$(Rrender)
 
 Sources += $(wildcard ON_forecast_*.md) style.css
