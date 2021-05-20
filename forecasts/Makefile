@@ -3,7 +3,7 @@
 # http://localhost:4103/forecasts/outputs/ON_accuracy.html
 # DO NOT SERVE FROM HERE (use parent)
 
-## https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-05-09
+## https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-05-20
 
 current: target
 -include target.mk
