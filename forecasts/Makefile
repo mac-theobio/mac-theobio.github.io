@@ -3,7 +3,7 @@
 # http://localhost:4103/forecasts/outputs/ON_accuracy.html
 # DO NOT SERVE FROM HERE (use parent)
 
-## https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-05-20.html
+## https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-06-05.html
 
 current: target
 -include target.mk
@@ -61,7 +61,7 @@ Sources += header.html footer.html
 Sources += fd.pl
 
 ## blogno counts backward; blogno=1 will look for most recent Rmd file
-blogno = 2
+blogno = 1
 
 allblog = $(notdir $(shell ls omt_blog/Mc*.Rmd))
 currblog = $(notdir $(shell ls omt_blog/Mc*.Rmd | tail -$(blogno) | head -1))
@@ -78,10 +78,11 @@ hotdirs += omt_blog
 
 McM%.md: omt_blog/McM%.md fd.pl
 	$(PUSH)
-	$(CP) omt_blog/style.css .
+	$(CP) omt_blog/style*.css .
 	-$(RMR) McM$*_files
 	$(CPR) omt_blog/McM$*_files .
 
+Ignore += current.html
 current.html: $(currhtml)
 	$(lnf)
 
@@ -90,7 +91,7 @@ currpost:
 
 ######################################################################
 
-## Deprecating 2021 Jun 08 (Tue)
+## Deprecated 2021 Jun 08 (Tue)
 
 ## Get blog from private site
 get_blog: omt_blog
@@ -98,7 +99,7 @@ get_blog: omt_blog
 	$(CP) omt_blog/$(currmark) .
 	-$(RMR) $(currfiles)
 	$(CPR) omt_blog/$(currfiles) .
-	$(CP) omt_blog/style.css .
+	$(CP) omt_blog/style*.css .
 
 ## Make this real instead of PHONY
 
@@ -115,7 +116,7 @@ post_blog: format_blog
 %.html: %.md
 	$(Rrender)
 
-Sources += $(wildcard ON_forecast_*.md) style.css
+Sources += $(wildcard ON_forecast_*.md) style*.css
 Sources += $(wildcard ON_forecast_*_files/*)
 
 ######################################################################
