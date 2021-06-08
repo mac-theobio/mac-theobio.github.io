@@ -58,28 +58,32 @@ omt_blog:
 Sources += header.html footer.html
 Sources += fd.pl
 
-allblog = $(notdir $(shell ls -t omt_blog/*.md))
-currblog = $(notdir $(shell ls -t omt_blog/*.md | head -1))
-currfiles = $(currblog:.md=_files)
+## blogno counts backward; blogno=1 will look for most recent Rmd file
+blogno = 3
+
+allblog = $(notdir $(shell ls omt_blog/Mc*.Rmd))
+currblog = $(notdir $(shell ls omt_blog/Mc*.Rmd | tail -$(blogno) | head -1))
+currfiles = $(currblog:.Rmd=_files)
+currmark = $(currblog:.Rmd=.md)
+currhtml = $(currblog:.Rmd=.html)
 
 ## Get blog from private site
 get_blog: omt_blog
-	$(CP) omt_blog/$(currblog) .
+	$(MAKE) omt_blog/$(currhtml)
+	$(CP) omt_blog/$(currmark) .
 	-$(RMR) $(currfiles)
 	$(CPR) omt_blog/$(currfiles) .
 	$(CP) omt_blog/style.css .
 
 ## Currently adding header/footer to yaml with perl script.
-format_blog:
-	perl -i -wf fd.pl $(currblog)
+format_blog: get_blog
+	perl -i -wf fd.pl $(currmark)
 
-view_blog:
-	$(MAKE) $(currblog:.md=.html.go)
-
-make_blog: get_blog format_blog view_blog
+view_blog: format_blog
+	$(MAKE) $(currmark:.md=.html.go)
 
 post_blog:
-	$(MAKE) $(currblog:.md=.html.op)
+	$(MAKE) $(currmark:.md=.html.op)
 
 %.html: %.md
 	$(Rrender)
