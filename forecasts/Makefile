@@ -44,7 +44,7 @@ push_page: ON_accuracy.html.op
 Ignore += local.mk
 -include local.mk
 
-Ignore += McMasterOntarioForecastsBlog*.* Ignore += McMasterOntarioForecastsBlog*/
+Ignore += McMasterOntarioForecastsBlog*.* McMasterOntarioForecastsBlog*/
 Ignore += omt_blog
 
 omt_blog:
@@ -58,6 +58,7 @@ omt_blog:
 Sources += header.html footer.html
 Sources += fd.pl
 
+allblog = $(notdir $(shell ls -t omt_blog/*.md))
 currblog = $(notdir $(shell ls -t omt_blog/*.md | head -1))
 currfiles = $(currblog:.md=_files)
 
@@ -68,6 +69,7 @@ get_blog: omt_blog
 	$(CPR) omt_blog/$(currfiles) .
 	$(CP) omt_blog/style.css .
 
+## Currently adding header/footer to yaml with perl script.
 format_blog:
 	perl -i -wf fd.pl $(currblog)
 
@@ -79,8 +81,6 @@ make_blog: get_blog format_blog view_blog
 post_blog:
 	$(MAKE) $(currblog:.md=.html.op)
 
-## It's literally just impossible how badly all of this works!
-## JD is still adding header/footer to yaml manually. Fix this before you add another one. 2021 May 12 (Wed)
 %.html: %.md
 	$(Rrender)
 
@@ -103,4 +103,3 @@ makestuff/Makefile:
 -include makestuff/os.mk
 -include makestuff/git.mk
 -include makestuff/visual.mk
-
