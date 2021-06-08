@@ -10,6 +10,8 @@ current: target
 
 ##################################################################
 
+-include makestuff/perl.def
+
 Rrender = Rscript -e "rmarkdown::render('$<')"
 
 ## The first forecast blog
@@ -59,13 +61,36 @@ Sources += header.html footer.html
 Sources += fd.pl
 
 ## blogno counts backward; blogno=1 will look for most recent Rmd file
-blogno = 3
+blogno = 2
 
 allblog = $(notdir $(shell ls omt_blog/Mc*.Rmd))
 currblog = $(notdir $(shell ls omt_blog/Mc*.Rmd | tail -$(blogno) | head -1))
 currfiles = $(currblog:.Rmd=_files)
 currmark = $(currblog:.Rmd=.md)
 currhtml = $(currblog:.Rmd=.html)
+
+######################################################################
+
+## New 2021 Jun 08 (Tue)
+## Not really sure if _files are part of the pipeline!
+
+hotdirs += omt_blog
+
+McM%.md: omt_blog/McM%.md fd.pl
+	$(PUSH)
+	$(CP) omt_blog/style.css .
+	-$(RMR) McM$*_files
+	$(CPR) omt_blog/McM$*_files .
+
+current.html: $(currhtml)
+	$(lnf)
+
+currpost:
+	$(MAKE) $(currmark:.md=.html.op)
+
+######################################################################
+
+## Deprecating 2021 Jun 08 (Tue)
 
 ## Get blog from private site
 get_blog: omt_blog
@@ -75,6 +100,8 @@ get_blog: omt_blog
 	$(CPR) omt_blog/$(currfiles) .
 	$(CP) omt_blog/style.css .
 
+## Make this real instead of PHONY
+
 ## Currently adding header/footer to yaml with perl script.
 format_blog: get_blog
 	perl -i -wf fd.pl $(currmark)
@@ -82,7 +109,7 @@ format_blog: get_blog
 view_blog: format_blog
 	$(MAKE) $(currmark:.md=.html.go)
 
-post_blog:
+post_blog: format_blog
 	$(MAKE) $(currmark:.md=.html.op)
 
 %.html: %.md
@@ -105,5 +132,8 @@ makestuff/Makefile:
 	ls ../makestuff/Makefile && /bin/ln -s ../makestuff 
 
 -include makestuff/os.mk
+
+-include makestuff/hotcold.mk
+
 -include makestuff/git.mk
 -include makestuff/visual.mk
