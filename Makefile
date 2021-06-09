@@ -1,6 +1,6 @@
 # labPages
 # http://localhost:4103/
-# make serve ##
+# make serve ## jekyll.log ##
 
 ## https://mac-theobio.github.io/
 
