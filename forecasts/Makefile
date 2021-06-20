@@ -57,30 +57,34 @@ omt_blog:
 
 ## Making this a pipeline
 
+## Set blogno to get the blogno-th most recent post
+## (blogno = 1) makes the most recent blog current
+
 Sources += header.html footer.html
 Sources += fd.pl
 
 ## blogno counts backward; blogno=1 will look for most recent Rmd file
 blogno = 1
 
-allblog = $(notdir $(shell ls omt_blog/Mc*.Rmd))
 currblog = $(notdir $(shell ls omt_blog/Mc*.Rmd | tail -$(blogno) | head -1))
 currfiles = $(currblog:.Rmd=_files)
 currmark = $(currblog:.Rmd=.md)
 currhtml = $(currblog:.Rmd=.html)
 
+allblog = $(notdir $(shell ls omt_blog/Mc*.Rmd))
+allmark = $(allblog:.Rmd=.md)
+
 ######################################################################
 
 ## New 2021 Jun 08 (Tue)
 ## Not really sure if _files are part of the pipeline!
+## -$(RMR) McM$*_files; $(CPR) omt_blog/McM$*_files .
 
 hotdirs += omt_blog
 
 McM%.md: omt_blog/McM%.md fd.pl
 	$(PUSH)
 	$(CP) omt_blog/style*.css .
-	-$(RMR) McM$*_files
-	$(CPR) omt_blog/McM$*_files .
 
 Ignore += current.html
 current.html: $(currhtml)
@@ -88,6 +92,10 @@ current.html: $(currhtml)
 
 currpost:
 	$(MAKE) $(currmark:.md=.html.op)
+
+## This might update and post all of the blogs found on omt_blog
+allpost:
+	$(MAKE) $(allmark:.md=.html.op)
 
 ######################################################################
 
