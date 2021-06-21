@@ -36,6 +36,8 @@ subdirs += events forecasts
 
 alldirs += $(subdirs)
 
+Ignore += $(subdirs)
+
 ######################################################################
 
 ## Importing
