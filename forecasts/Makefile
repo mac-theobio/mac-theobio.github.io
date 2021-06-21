@@ -64,7 +64,7 @@ Sources += header.html footer.html
 Sources += fd.pl
 
 ## blogno counts backward; blogno=1 will look for most recent Rmd file
-blogno = 1
+blogno = 2
 
 currblog = $(notdir $(shell ls omt_blog/Mc*.Rmd | tail -$(blogno) | head -1))
 currfiles = $(currblog:.Rmd=_files)
@@ -77,14 +77,15 @@ allmark = $(allblog:.Rmd=.md)
 ######################################################################
 
 ## New 2021 Jun 08 (Tue)
-## Not really sure if _files are part of the pipeline!
-## -$(RMR) McM$*_files; $(CPR) omt_blog/McM$*_files .
+## _files are needed to make .html from md, but not needed to visualize html
 
 hotdirs += omt_blog
 
 McM%.md: omt_blog/McM%.md fd.pl
 	$(PUSH)
 	$(CP) omt_blog/style*.css .
+	-$(RMR) McM$*_files
+	$(CPR) omt_blog/McM$*_files .
 
 Ignore += current.html
 current.html: $(currhtml)
