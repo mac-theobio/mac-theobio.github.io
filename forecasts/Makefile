@@ -43,6 +43,8 @@ push_page: ON_accuracy.html.op
 
 ## File location
 
+## Use local.mk to point to omt_blog: e.g.,
+## echo 'omt_blog = ~/screens/research/MacOMT/forecast_blog/' > local.mk ##
 Ignore += local.mk
 -include local.mk
 
@@ -80,6 +82,9 @@ allmark = $(allblog:.Rmd=.md)
 ## _files are needed to make .html from md, but not needed to visualize html
 
 hotdirs += omt_blog
+
+Makefile: omt_blog/Makefile
+omt_blog/Makefile: omt_blog
 
 McM%.md: omt_blog/McM%.md fd.pl
 	$(PUSH)
