@@ -59,14 +59,11 @@ omt_blog:
 
 ## Making this a pipeline
 
-## Set blogno to get the blogno-th most recent post
-## (blogno = 1) makes the most recent blog current
-
 Sources += header.html footer.html
 Sources += fd.pl
 
 ## blogno counts backward; blogno=1 will look for most recent Rmd file
-blogno = 2
+blogno = 1
 
 currblog = $(notdir $(shell ls omt_blog/Mc*.Rmd | tail -$(blogno) | head -1))
 currfiles = $(currblog:.Rmd=_files)
