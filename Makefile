@@ -6,6 +6,7 @@
 
 current: target
 -include target.mk
+Ignore = target.mk
 
 ##################################################################
 
