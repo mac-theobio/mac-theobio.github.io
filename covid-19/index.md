@@ -13,9 +13,10 @@ Our research group is led by three faculty who have been engaged in epidemiologi
 
 ## Blog posts
 
--  5 Jun 2021. [Ontario COVID-19 forecasts](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-06-05)
--  20 May 2021. [Ontario COVID-19 forecasts](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-05-20)
--  9 May 2021. [Ontario COVID-19 forecasts](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-05-09)
+- [20 Sep 2021 forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-09-20)
+- [5 Jun 2021 forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-06-05)
+- [20 May 2021 forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-05-20)
+- [9 May 2021 forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-05-09)
 - 19 Apr 2021. [Early prediction of Ontario’s third COVID-19 wave](https://mac-theobio.github.io/forecasts/outputs/ON_accuracy.html)
 
 ## Canadian public data repository
