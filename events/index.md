@@ -13,6 +13,8 @@ Comment out header when there is nothing under it.
 
 ## Past events
 
+* Jonathan Dushoff [Time distributions and coronavirus control](https://www.youtube.com/watch?v=PxRP3CabbLA), Cornell CAM Colloquium Wed, Jul 8, 2020.
+
 * David Earn, Jonathan Dushoff __From 1918 to 2020: Analyzing the past and forecasting the Future.__
 PIMS/UBC Mathematical Biology Seminar.
 Wed, Jul 8, 2020.
