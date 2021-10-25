@@ -3,7 +3,6 @@ layout: page
 title: MacTheobio COVID research
 ---
 
-
 # Data analysis and forecasting at McMaster University
 
 Our research group is led by three faculty who have been engaged in epidemiological modelling research for more then 20 years:
@@ -13,6 +12,7 @@ Our research group is led by three faculty who have been engaged in epidemiologi
 
 ## Blog posts
 
+- [17 Oct 2021 forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-10-17)
 - [20 Sep 2021 forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-09-20)
 - [5 Jun 2021 forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-06-05)
 - [20 May 2021 forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-05-20)
