@@ -69,6 +69,8 @@ favicon.ico: seird.crop.jpg
 
 # Jekyll
 
+Ignore += .jekyll-cache
+
 Sources += _config.yml $(wildcard Gemfile_*)
 
 Sources += _includes/* _layouts/* css/* _sass/*
