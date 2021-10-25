@@ -14,7 +14,6 @@ current: target
 Rrender = Rscript -e "rmarkdown::render('$<')"
 
 ## The first forecast blog
-
 Ignore += ON_forecast-accuracy_blog-post/
 Ignore += ON_forecast-accuracy.zip ## Makes Irena's original folder
 Sources += ON_accuracy.Rmd
