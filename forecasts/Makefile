@@ -56,6 +56,7 @@ omt_blog:
 ######################################################################
 
 ## Making this a pipeline
+## This part also looks moribund now 2021 Dec 06 (Mon)
 
 Sources += header.html footer.html
 Sources += fd.pl
@@ -79,8 +80,8 @@ allmark = $(allblog:.Rmd=.md)
 hotdirs += omt_blog
 
 Makefile: omt_blog/Makefile
-omt_blog/Makefile: omt_blog
 
+.PRECIOUS: McM%.md
 McM%.md: omt_blog/McM%.md fd.pl
 	$(PUSH)
 	$(CP) omt_blog/style*.css .
@@ -122,6 +123,7 @@ view_blog: format_blog
 post_blog: format_blog
 	$(MAKE) $(currmark:.md=.html.op)
 
+.PRECIOUS: %.html
 %.html: %.md
 	$(Rrender)
 
