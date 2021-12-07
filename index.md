@@ -17,6 +17,7 @@ Updates
 * [events page](events/index.html)
 * [covid-19 work](covid-19/index.html)
 * [postdoc opportunities](postdoc.html)
+* [data science opportunity](data-science.html)
 
 Faculty
 -------
