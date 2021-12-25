@@ -50,7 +50,7 @@ Ignore += McMasterOntarioForecastsBlog*.* McMasterOntarioForecastsBlog*/
 Ignore += omt_blog
 
 omt_blog:
-	@(ls $(omt_blog)/Makefile > /dev/null && ln -s $(omt_blog) $@) \
+	(ls $(omt_blog)/Makefile > /dev/null && ln -s $(omt_blog) $@) \
 	|| (echo ERROR: Please set omt_blog directory in local.mk && false)
 
 ######################################################################
@@ -80,6 +80,7 @@ allmark = $(allblog:.Rmd=.md)
 hotdirs += omt_blog
 
 Makefile: omt_blog/Makefile
+omt_blog/Makefile: | omt_blog
 
 .PRECIOUS: McM%.md
 McM%.md: omt_blog/McM%.md fd.pl
