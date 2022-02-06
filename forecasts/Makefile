@@ -62,7 +62,7 @@ Sources += header.html footer.html
 Sources += fd.pl
 
 ## blogno counts backward; blogno=1 will look for most recent Rmd file
-blogno = 3
+blogno = 1
 
 currblog = $(notdir $(shell ls omt_blog/Mc*.Rmd | tail -$(blogno) | head -1))
 currfiles = $(currblog:.Rmd=_files)
