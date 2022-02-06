@@ -5,6 +5,8 @@ title: Data Science Opportunity
 
 _Posted 3 December 2021_
 
+_Update 4 January 2022_ -- We are not currently accepting new applications for this position, but we may have similar opportunities soon. If you are interested in this kind of work, please email [us](mailto:swalk@mcmaster.ca).
+
 The [McMaster Theobio Lab](https://mac-theobio.github.io) is part of the [CANMOD network](https://canmod.net), which has provided funding to accelerate our work on the development of epidemiological tools, datasets, and infrastructure for supporting research and public health applications. We are looking for a full time junior data scientist to join our CANMOD data team, which is leading this work. The position is 35 hours a week for 15 months, at an hourly rate of $27.00 to $41.74 depending on experience.
 
 The data team wants to make it easier for infectious disease modellers to get straightforward and convenient access to historical and publicly available infectious disease data, so that modellers can spend more time modelling and less time locating, accessing, and preparing data. There is a tremendous amount of publicly available information that is locked up in typewritten and even handwritten documents. Epidemiologists who would like to make use of this information face enormous data access, digitization, preparation, and quality assurance barriers. Our group has been entering this information into digital data files, which we are curating so that the broader epidemiological community can directly make use of them. See [CANMOD Digitization](https://canmod.net/digitization).
