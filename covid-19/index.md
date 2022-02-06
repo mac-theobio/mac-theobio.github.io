@@ -12,6 +12,8 @@ Our research group is led by three faculty who have been engaged in epidemiologi
 
 ## Blog posts
 
+- [26 Jan 2022
+forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2022-01-26)
 - [26 Nov 2021 forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-11-26)
 - [17 Oct 2021 forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-10-17)
 - [20 Sep 2021 forecast](https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-09-20)
