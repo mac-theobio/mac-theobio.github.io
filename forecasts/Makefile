@@ -1,8 +1,8 @@
 # labPages/forecasts
 # DO NOT SERVE FROM HERE (use parent)
-# http://localhost:4103/forecasts/outputs/McMasterOntarioForecastsBlog2021-09-20.html
+# http://localhost:4103/forecasts/outputs/McMasterOntarioForecastsBlog2022-01-26.html
 
-## https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2021-09-20.html
+## https://mac-theobio.github.io/forecasts/outputs/McMasterOntarioForecastsBlog2022-01-26.html
 
 current: target
 -include target.mk
