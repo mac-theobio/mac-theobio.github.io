@@ -21,7 +21,7 @@ One fellowship is available immediately, and others are available at later start
 
 Review of applications will begin on 15 March 2022, but applications will be considered at any time.
 
-Selected candidates will be expected to start working remotely, but may be asked to move to Hamilton and work in person. Preference will be given to people with permission to work in Canada.
+Selected candidates will be expected to start working remotely, but may be asked later to move to Hamilton and work in person. Preference will be given to people with permission to work in Canada.
 
 Please submit your application to MathJobs [here](https://www.mathjobs.org/jobs/McMaster). Applicants should provide at least three letters of recommendation. At least one of these letters should report on the candidate's teaching abilities. Preferably these letters will be submitted through the MathJobs website; they may also be emailed directly to [us](mailto:bbolker+covidpostdoc@gmail.com). We appreciate all replies to this advertisement, but only applicants under consideration will be contacted. 
 
