@@ -15,7 +15,7 @@ _Posted 15 February 2022_
 
 Some of our projects are strongly linked to the COVID-19 pandemic, while others relate to other infectious diseases, including historical epidemics in Europe and North America, seasonal and pandemic influenza around the world, and rabies in Africa.
 
-Some positions might involve a limited amount of undergraduate teaching in mathematics, statistics, data science, or computer programming.  Candidates who would like to gain teaching experience should indicate the types of courses they would like to have the opportunity to teach.
+Some positions might involve some undergraduate teaching in mathematics, statistics, data science, or computer programming.  Candidates who would like to gain teaching experience should indicate the types of courses they would like to have the opportunity to teach.
 
 One fellowship is available immediately, and others are available at later starting dates.  The initial term is two years, subject to satisfactory performance in the first year.
 
