@@ -18,7 +18,7 @@ The fellowship is available immediately, but the start date is negotiable. The i
 
 Review of applications will begin on 16 May 2022, but applications will be considered until the position is filled.  Selected candidates can choose to be associated officially either with Simon Fraser University in British Columbia or McMaster University in Ontario, but can work remotely if desired in any case.  Preference will be given to people with permission to work in Canada.
 
-Please submit your application to MathJobs (at <https://www.mathjobs.org/jobs/fellowship/19945>), including a CV and research statement. Applicants should provide at least three letters of recommendation.  Preferably these letters will be submitted through the MathJobs website; they may also be emailed directly to [Caroline Colijn and David Earn](mailto:Caroline Colijn <ccolijn@sfu.ca>, David Earn <earn@math.mcmaster.ca>).
+Please submit your application to MathJobs (at [https://www.mathjobs.org/jobs/fellowship/19945](https://www.mathjobs.org/jobs/fellowship/19945)), including a CV and research statement. Applicants should provide at least three letters of recommendation.  Preferably these letters will be submitted through the MathJobs website; they may also be emailed directly to [Caroline Colijn and David Earn](mailto:Caroline Colijn <ccolijn@sfu.ca>, David Earn <earn@math.mcmaster.ca>).
 
 Simon Fraser University (Burnaby campus) acknowledges the Traditional Coast Salish Lands, including the Tsleil-Waututh (səl̓ilw̓ətaʔɬ), Kwikwetlem (kʷikʷəƛ̓əm), Squamish (Sḵwx̱wú7mesh Úxwumixw) and Musqueam (xʷməθkʷəy̓əm) Nations.
 
