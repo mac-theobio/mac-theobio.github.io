@@ -1,12 +1,15 @@
 # labPages
 # http://localhost:4103/
-# make serve ## jekyll.log ##
 
 ## https://mac-theobio.github.io/
 
 current: target
 -include target.mk
 Ignore = target.mk
+
+##################################################################
+
+## serve: jekyll.log
 
 ##################################################################
 
@@ -60,6 +63,8 @@ Ignore += 16.ico 32.ico
 Ignore += *.crop.jpg
 seird.crop.jpg: seird.jpg Makefile
 	convert -crop 350x350+280+30 $< $@
+
+## Weirdly broken 2023 Jan 04 (Wed)
 favicon.ico: seird.crop.jpg
 	convert -resize x16 -gravity center -crop 16x16+0+0 -flatten -colors 256 $< 16.ico
 	convert -resize x32 -gravity center -crop 32x32+0+0 -flatten -colors 256 $< 32.ico
@@ -80,7 +85,7 @@ Sources += _includes/* _layouts/* css/* _sass/*
 Ignore += .sass-cache/ Gemfile Gemfile.lock _site/
 
 ## Gemfile_sb.set:
-Gemfile_orig.set Gemfile_sb.set: 
+Gemfile_orig.set Gemfile_sb.set:
 	/bin/ln -fs $(basename $@)  Gemfile
 
 ######################################################################

@@ -12,15 +12,17 @@ I am a theoretical biologist with a broad interest in computational and statisti
 * [Talks and interviews](jd/media.md)
 * [Pronouns](https://dushoff.github.io/notebook/pronouns.html)
 
-## Graduate and post-graduate studies
+## Post-doctoral fellows
+
+I am currently looking post-docs to study the spread of rabies. [Application information](jd/rabies_pdf.html) is here.
+
+## Graduate studies
 
 I accept graduate students via:
 
 * The [Department of Biology](http://www.biology.mcmaster.ca/)
 * The [Department of Mathematics and Statistics](http://www.math.mcmaster.ca/)
 * The [School of Computational Science and Engineering](http://computational.mcmaster.ca/graduate-studies.html)
-
-I do not have any post-graduate positions ready at the moment, but I am happy to talk about supporting fellowship applications
 
 [Application instructions](jd/grad.html)
 
