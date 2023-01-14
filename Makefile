@@ -2,6 +2,7 @@
 # http://localhost:4103/
 
 ## https://mac-theobio.github.io/
+## https://mac-theobio.github.io/jd/rabies_pdf.html
 
 current: target
 -include target.mk

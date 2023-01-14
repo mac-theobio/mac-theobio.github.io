@@ -9,7 +9,7 @@ The successful candidate will have strong quantitative, computational and commun
 
 Review of applications will begin on 1 Feb 2023, and continue until the position is filled. To apply, please e-mail Jonathan Dushoff (dushoff@mcmaster.ca) with a curriculum vitae (CV), a one-page statement of how your research interests and experience relate to this position, and contact information for 3 references.
 
-Please indicate when you are available to start. The target date is the second half of 2023.
+Please indicate when you are available to start. The target date is the second half of 2023. 
 
 McMaster is located in Hamilton, Ontario, less than an hour from both Niagara Falls and from Toronto (and convenient to the latter by public transportation). The campus is large, green and conveniently located.
 
