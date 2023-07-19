@@ -79,8 +79,7 @@ allmark = $(allblog:.Rmd=.md)
 
 hotdirs += omt_blog
 
-Makefile: omt_blog/Makefile
-omt_blog/Makefile: | omt_blog
+Makefile: | omt_blog
 
 .PRECIOUS: McM%.md
 McM%.md: omt_blog/McM%.md fd.pl
@@ -136,15 +135,14 @@ Sources += $(wildcard ON_forecast_*_files/*)
 ### Makestuff
 
 Sources += Makefile
-
-ms = makestuff
+Ignore += makestuff
 msrepo = https://github.com/dushoff
 
-Ignore += makestuff
-Makefile: makestuff/Makefile
+Makefile: makestuff/00.stamp
+makestuff/%.stamp:
+	- $(RM) makestuff/*.stamp
+	(cd makestuff && $(MAKE) pull) || git clone --depth 1 $(msrepo)/makestuff
 	touch $@
-makestuff/Makefile:
-	git clone $(msrepo)/makestuff
 
 -include makestuff/os.mk
 
