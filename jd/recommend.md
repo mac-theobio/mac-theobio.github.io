@@ -69,7 +69,7 @@ Request
 If you would like to be recommended under these terms, please [send me by
 email](mailto:dushoff@mcmaster.ca):
 
--   your name, course(s) taken with me, grade(s) received
+-   your name, pronouns, course(s) taken with me, grade(s) received
 -   confirmation that you require a letter from a professor
 -   instructions about how to fill out the recommendation, and if
     necessary what I must do *instead* of filling out scoring forms or
